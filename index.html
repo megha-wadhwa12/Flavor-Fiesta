@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlavorFiesta</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bgBlur try-border-red justify-center align-items-center">
+      <img class="cross absolute" src="./assets/cross.png" alt="" />
+      <div class="popup">
+
+      </div>
+    </div>
+    <div class="nav flex justify-space-between align-items-center">
+      <div class="logo-tab flex justify-space-around align-items-center">
+        <img src="./assets/Flavorfiesta.png" alt="" class="logo" />
+        <ul
+          class="tabs flex justify-space-around align-items-center style-none"
+        >
+          <li id="tab1"><a href="#">Home</a></li>
+          <li id="tab2"><a href="#">About</a></li>
+          <li id="tab3"><a href="#">Categories</a></li>
+        </ul>
+      </div>
+      <div class="search flex align-items-center justify-center r">
+        <img src="./assets/Search.png" alt="" class="searchIcon" />
+        <form id="searchForm" action="">
+          <input
+            type="search"
+            id="search"
+            class="text-align-center"
+            placeholder="Search by Category"
+          />
+        </form>
+      </div>
+    </div>
+    <div class="bg1">
+      <div class="main-1 flex">
+        <div class="white">
+          <h1 class="chef">CHEF'S SPECIAL</h1>
+          <h1 class="kitchen">Kitchen dilemma: What's for dinner tonight?</h1>
+          <p class="para">
+            Explore a world of culinary delights with our handpicked meal
+            suggestions and detailed recipes.
+          </p>
+        </div>
+        <div class="handImg">
+          <img src="./assets/hand-plate.png" alt="" class="hand" />
+        </div>
+      </div>
+    </div>
+    <div class="bg2">
+      <div class="main-2 flex column text-align-center">
+        <p class="slogan black text-align-center">
+          Craving satisfaction? Make a mouthwatering dish!
+        </p>
+        <div class="randomImages">
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bg3">
+      <div class="main-3 flex column align-flex-start">
+        <h1 class="popular text-align-center">Popular Categories</h1>
+        <div class="whiteBox flex text-align-center align-items-center">
+
+        </div>
+      </div>
+    </div>
+
+    <div id="bg4" class="bg4 flex justify-center align-flex-end">
+      <div class="main-4 flex column">
+        <div class="text flex justify-space-between">
+          <p class="searchResultText">Search Results</p>
+          <p class="categoryText"></p>
+        </div>
+        <div class="results flex wrap">
+
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
